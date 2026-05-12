@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #111;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 0.15s ease, text-underline-offset 0.15s ease;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+nav {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 15px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+/* Bookshelf */
+.book-list {
+  list-style: none;
+}
+
+.book-list li {
+  margin-bottom: 32px;
+}
+
+.book-list .title {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.book-list .thoughts {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Simple lists (habits, values) */
+.simple-list {
+  list-style: none;
+}
+
+.simple-list li {
+  margin-bottom: 12px;
+}
