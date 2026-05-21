@@ -96,3 +96,96 @@ nav a {
 .simple-list li {
   margin-bottom: 12px;
 }
+
+/* Reading */
+.reading-intro {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.reading-search {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 15px;
+  font-family: inherit;
+  color: #111;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  margin-bottom: 24px;
+  outline: none;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.reading-search:focus {
+  border-bottom-color: #111;
+}
+
+.reading-list li.hidden {
+  display: none;
+}
+
+details.hidden {
+  display: none;
+}
+
+details {
+  margin-bottom: 8px;
+}
+
+details[open] {
+  margin-bottom: 24px;
+}
+
+summary {
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 8px 0;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: "▸ ";
+  font-size: 17px;
+  color: #999;
+}
+
+details[open] > summary::before {
+  content: "▾ ";
+}
+
+summary .count {
+  font-weight: 400;
+  color: #999;
+  font-size: 15px;
+}
+
+.reading-list {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.reading-list li {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.reading-list .date {
+  font-size: 13px;
+  color: #999;
+  white-space: nowrap;
+  min-width: 44px;
+}
+
+.reading-list a {
+  font-size: 15px;
+}
