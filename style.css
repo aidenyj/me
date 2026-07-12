@@ -61,6 +61,23 @@ nav a {
   font-size: 15px;
 }
 
+nav.social {
+  align-items: center;
+  gap: 20px;
+}
+
+nav.social a {
+  text-decoration: none;
+  color: #111;
+  display: flex;
+  opacity: 0.4;
+  transition: opacity 0.15s ease;
+}
+
+nav.social a:hover {
+  opacity: 1;
+}
+
 .back {
   display: inline-block;
   margin-bottom: 40px;
