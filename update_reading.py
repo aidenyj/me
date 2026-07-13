@@ -79,7 +79,7 @@ def build_html(bookmarks):
 </head>
 <body>
   <div class="container">
-    <a href="index.html" class="back" aria-label="Home">&larr; <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+    <a href="index.html" class="back" aria-label="Home">&larr; Aiden Jeong</a>
     <h1>reading</h1>
     <p class="reading-intro">{len(bookmarks)} articles I've bookmarked.</p>
     <input type="text" class="reading-search" placeholder="Search articles..." autofocus>
