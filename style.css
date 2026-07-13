@@ -66,9 +66,10 @@ nav.social a {
 }
 
 .back {
-  display: inline-block;
+  display: inline-flex;
   margin-bottom: 24px;
-  font-size: 12pt;
+  text-decoration: none;
+  color: #000;
 }
 
 /* Bookshelf */
